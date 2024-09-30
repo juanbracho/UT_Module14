@@ -51,7 +51,7 @@ function buildCharts(sample) {
       marker: {
         size: sample_values,
         color: otu_ids,
-        colorscale: 'Earth' // Optional, you can change the color scheme
+        colorscale: 'Earth'
       }
     };
 
