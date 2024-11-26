@@ -19,6 +19,7 @@ In this module, we explored how to use **Plotly**, a JavaScript data visualizati
   - JavaScript functional programming concepts.
   - Use of `.map()` and `.filter()` methods to preprocess and manipulate data for visualizations.
   - Writing ES6 arrow functions for streamlined and efficient code.
+
 ---
 
 ### 14.3: JavaScript with D3.js
@@ -28,19 +29,27 @@ In this module, we explored how to use **Plotly**, a JavaScript data visualizati
   - Creating interactive charts with dropdown menus, hover events, and dynamic updates using Plotly’s `restyle()` method.
   - Integrating metadata into visualizations by dynamically appending HTML elements.
 
-- **Instructions Followed:**
-  1. Imported data from `samples.json` using D3.js.
-  2. Created a horizontal bar chart and bubble chart to display sample data.
-  3. Updated all visualizations dynamically using dropdown menus.
-  4. Added a demographic info panel to display metadata of selected samples.
-
 ---
 
-## Final Project
-The module culminated in building an interactive dashboard called the **Belly Button Biodiversity Dashboard**. The dashboard includes:
-- A dropdown menu to select datasets.
-- Interactive bar and bubble charts displaying sample data.
-- A metadata panel dynamically updated based on user interaction.
+## Final Project: Belly Button Biodiversity Dashboard
+
+The culmination of this module was the creation of an interactive web-based dashboard to explore and visualize biological sample data. The project was structured to simulate a real-world data visualization scenario and required integrating various JavaScript skills. Key elements of the project included:
+
+1. **Data Integration**:
+   - Using D3.js to import biological sample data from a JSON file.
+   - Parsing the JSON data and preparing it for visualizations.
+
+2. **Visualizations**:
+   - A **horizontal bar chart** displaying the top 10 bacterial species (OTUs) found in a selected sample.
+   - A **bubble chart** showing all bacterial species for the selected sample, where the marker size and color represented the sample values and OTU IDs, respectively.
+
+3. **Interactive Features**:
+   - A **dropdown menu** to dynamically select different biological samples and update all visualizations.
+   - A **metadata panel** that displayed demographic information (e.g., age, location, gender) associated with the selected sample.
+
+4. **User Experience**:
+   - Integrated interactivity so users could explore the data and insights dynamically.
+   - Ensured the dashboard was visually appealing and functional using Plotly for rendering and JavaScript for logic.
 
 ---
 
@@ -48,7 +57,7 @@ The module culminated in building an interactive dashboard called the **Belly Bu
 By completing this module, participants can:
 - Utilize **Plotly** and **D3.js** for creating data visualizations.
 - Process and manipulate data using JavaScript functional programming techniques.
-- Integrate metadata into dynamic dashboards.
+- Build interactive dashboards that integrate multiple types of visualizations.
 - Deploy and interact with web-based visualizations for data storytelling.
 
 ---
